@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0.5rem 0.75rem 0.75rem 2rem;
+    border-bottom: 0.5px solid rgba(24, 24, 24, 0.904);
+}
+
+.logo {
+    height: 40px;
+    margin-right: 0.5rem;
+}
+
+.left, .center, .right {
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    flex: 1;
+    justify-content: center;
+}
+
+.left h1 {
+    font-size: 1.5rem;
+    color: rgb(209, 89, 8);
+    margin: 0; 
+}
+
+.search {
+    width: 100%;
+    max-width: 400;
+}
+
+.right h3 {
+    margin: 0 1rem 0 0;
+    cursor: pointer; 
+}
+
+.right .profile {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+.profile-menu {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+}
+
+.profile-trigger {
+    display: flex;
+    align-items: left;
+    gap: 0.5rem;
+}
+
+.dropdown {
+    position: absolute;
+    right: 0;
+    top: 110%;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 0.5rem 0;
+    list-style: none;
+    min-width: 160px;
+    z-index: 1000;
+}
+
+.dropdown li{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.dropdown li:hover  {
+    background-color: #f6f6f6;
+}
+
+.profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
