@@ -16,7 +16,7 @@ const Header = () => {
                 <SearchBar className={'search'}/>
             </div>
             <div className='right'>
-                <Link to="/create"><h3>+ create</h3></Link>
+                <Link to="/create"><h3>+ Create</h3></Link>
                 <Profile className={'profile'}/>
             </div>
         </div>

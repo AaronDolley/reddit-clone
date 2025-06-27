@@ -1,0 +1,51 @@
+.post {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background: #fff;
+    padding: 1rem;
+}
+
+.post-votes {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.post-votes button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.post-content {
+    flex: 1;
+}
+
+.post-info {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 0.25rem;
+}
+
+.post-title {
+    margin: 0.25rem 0;
+}
+
+.post-image img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-top: 0.5rem;
+}
+
+.post-actions {
+    font-size: 0.8rem;
+    color: #666;
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}

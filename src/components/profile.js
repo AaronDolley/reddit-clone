@@ -36,7 +36,7 @@ const Profile = () => {
         <div className="profile-menu" ref={menuRef}>
             <div className="profile-trigger" onClick={() => setIsOpen(!isOpen)}>
                 <img src={profileImage} alt="Profile" className="profile-pic"/>
-                {isOpen && <span className="username">username</span>}
+                {isOpen &&<span className="username">username</span>}
             </div>
 
             {isOpen && (
