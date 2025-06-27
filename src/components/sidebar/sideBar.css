@@ -41,3 +41,9 @@
   padding: 4px 0;
 }
 
+.home-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+

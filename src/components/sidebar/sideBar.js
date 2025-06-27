@@ -3,15 +3,21 @@ import { FaHome, FaPlus } from 'react-icons/fa';
 import CustomFeeds from './customFeeds';
 import CreateCommunity from './createCommunity';
 import './sideBar.css';
+import { useNavigate } from 'react-router-dom';
 
 const SideBar = () => {
     const [isCustomFeedOpen, setIsCustomFeedOpen] = useState(false);
-    const [isCreateCommunityOpen, setIsCreateCommunityOpen] = useState(false)
+    const [isCreateCommunityOpen, setIsCreateCommunityOpen] = useState(false);
+
+    const navigate = useNavigate();
+    const goHome = () => {
+        navigate("/");
+    }
 
     return (
         <div className='sidebar'>
             <div className='sidebar-section'>
-                <h4 className='sidebar-heading'><FaHome />Home</h4>
+                <button onClick={goHome} className='home-btn'><h4 className='sidebar-heading'><FaHome />Home</h4></button>
             </div>
             <div className='sidebar-section'>
                 <h4 className="sidebar-heading">Custom Feeds</h4>
